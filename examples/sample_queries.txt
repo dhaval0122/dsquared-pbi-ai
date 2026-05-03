@@ -1,0 +1,4 @@
+total sales
+average sales per day
+sales last 30 days
+highest sales month

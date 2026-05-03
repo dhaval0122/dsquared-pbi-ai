@@ -1,0 +1,15 @@
+# environment
+venv/
+__pycache__/
+
+# env file
+.env
+
+# build files
+dist/
+build/
+*.egg-info
+
+#myfiles
+myreadme.md
+info.md

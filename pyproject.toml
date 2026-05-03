@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pbi-ai-assistant"
+version = "0.1.0"
+description = "AI-powered Power BI assistant using OpenAI and pbi-cli"
+authors = [{ name="Your Name" }]
+dependencies = [
+    "openai",
+    "python-dotenv"
+]
+
+[project.scripts]
+pbi-ai = "pbi_ai.main:run"
